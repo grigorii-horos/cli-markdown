@@ -3,14 +3,10 @@ const cliHtml = require('cli-html');
 
 marked.setOptions({
   renderer: new marked.Renderer(),
-  highlight(code) {
-    return require('highlight.js').highlightAuto(code).value;
-  },
   pedantic: false,
   sanitize: false,
   smartLists: true,
   xhtml: false,
-  emoji: true,
   breaks: false,
   gfm: true,
   smartypants: false,
