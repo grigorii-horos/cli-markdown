@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "cli-html": "^1.5.5",
-    "highlight.js": "^9.15.10",
     "marked": "^0.7.0"
   },
   "devDependencies": {

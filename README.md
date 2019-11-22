@@ -7,10 +7,8 @@ Welcome to cli-markdown
 [![License: GPL-3.0](https://img.shields.io/github/license/horosgrisa/cli-markdown.svg)](https://github.com/horosgrisa/cli-markdown/blob/master/LICENSE)
 ![Downloads](https://img.shields.io/npm/dw/cli-markdown.svg)
 
-
 > Renderer JSX in the Terminal.  
 > Supports pretty tables and syntax highlighting
-
 
 ## Install
 
@@ -29,7 +27,6 @@ This will produce the following:
 ![Screenshot of cli-markdown](./images/1.png)
 
 ![Screenshot of cli-markdown](./images/2.png)
-
 
 ## Usage as module
 
@@ -67,10 +64,8 @@ Feel free to check [issues page](https://github.com/horosgrisa/cli-markdown/issu
 
 Give a ⭐️ if this project helped you!
 
-
 ## License
 
 Copyright © 2019 [Grigorii Horos](https://github.com/horosgrisa).
 
 This project is [GPL-3.0-or-later](https://github.com/horosgrisa/cli-markdown/blob/master/LICENSE) licensed.
-
