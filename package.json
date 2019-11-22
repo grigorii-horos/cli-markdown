@@ -1,6 +1,6 @@
 {
   "name": "cli-markdown",
-  "version": "1.1.6",
+  "version": "1.2.0",
   "description": "Render Markdown to Terminal",
   "bugs": {
     "url": "https://github.com/horosgrisa/cli-markdown/issues"
