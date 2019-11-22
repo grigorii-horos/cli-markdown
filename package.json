@@ -1,0 +1,61 @@
+{
+  "name": "cli-markdown",
+  "version": "1.1.6",
+  "description": "Render Markdown to Terminal",
+  "bugs": {
+    "url": "https://github.com/horosgrisa/cli-markdown/issues"
+  },
+  "homepage": "https://github.com/horosgrisa/cli-markdown",
+  "main": "index.js",
+  "bin": {
+    "markdown": "./bin/markdown.js",
+    "md": "./bin/markdown.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "fix": "eslint --quiet --fix *.js bin/*.js .eslintrc.js --ignore-pattern '!.eslintrc.js'"
+  },
+  "dependencies": {
+    "cli-html": "^1.5.5",
+    "highlight.js": "^9.15.10",
+    "marked": "^0.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-es": "^3.16.5",
+    "eslint-config-standard-jsdoc": "^9.2.2",
+    "eslint-plugin-async-await": "0.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsdoc": "^18.0.1",
+    "eslint-plugin-json": "^2.0.1",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prefer-object-spread": "^1.2.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-simple-import-sort": "^4.0.0",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.8.0"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.12.0"
+  },
+  "author": "Grigorii Horos <horosgrisa@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horosgrisa/cli-markdown.git"
+  },
+  "keywords": [
+    "html",
+    "render",
+    "terminal",
+    "cli",
+    "marked",
+    "markdown",
+    "markdown-to-cli",
+    "markdown-to-terminal",
+    "html-to-terminal"
+  ]
+}
