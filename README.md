@@ -26,7 +26,7 @@ This will produce the following:
 
 ![Screenshot of cli-markdown](./images/1.png)
 
-![Screenshot of cli-markdown](./images/2.png)
+<!-- ![Screenshot of cli-markdown](./images/2.png) -->
 
 ## Usage as module
 
