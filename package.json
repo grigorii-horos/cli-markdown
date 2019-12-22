@@ -16,8 +16,8 @@
     "fix": "eslint --quiet --fix *.js bin/*.js .eslintrc.js --ignore-pattern '!.eslintrc.js'"
   },
   "dependencies": {
-    "cli-html": "^1.5.8",
-    "marked": "^0.7.0"
+    "cli-html": "^1.6.0",
+    "marked": "^0.8.0"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
@@ -33,7 +33,7 @@
     "eslint-plugin-prefer-object-spread": "^1.2.1",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-simple-import-sort": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^5.0.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.8.0"
   },
   "engines": {
