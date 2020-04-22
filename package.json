@@ -16,25 +16,25 @@
     "fix": "eslint --quiet --fix *.js bin/*.js .eslintrc.js --ignore-pattern '!.eslintrc.js'"
   },
   "dependencies": {
-    "cli-html": "^1.6.0",
-    "marked": "^0.8.0"
+    "cli-html": "^1.8.0",
+    "marked": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-es": "^3.16.5",
-    "eslint-config-standard-jsdoc": "^9.2.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-es": "^3.19.55",
+    "eslint-config-standard-jsdoc": "^9.3.0",
     "eslint-plugin-async-await": "0.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsdoc": "^18.0.1",
-    "eslint-plugin-json": "^2.0.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsdoc": "^24.0.0",
+    "eslint-plugin-json": "^2.1.1",
     "eslint-plugin-no-loops": "^0.3.0",
-    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prefer-object-spread": "^1.2.1",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-simple-import-sort": "^5.0.0",
-    "eslint-plugin-you-dont-need-lodash-underscore": "^6.8.0"
+    "eslint-plugin-simple-import-sort": "^5.0.2",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0"
   },
   "engines": {
     "node": ">=12.0.0",
