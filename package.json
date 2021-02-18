@@ -1,6 +1,6 @@
 {
   "name": "cli-markdown",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Render Markdown to Terminal",
   "bugs": {
     "url": "https://github.com/horosgrisa/cli-markdown/issues"
@@ -8,8 +8,8 @@
   "homepage": "https://github.com/horosgrisa/cli-markdown",
   "main": "index.js",
   "bin": {
-    "markdown": "./bin/markdown.js",
-    "md": "./bin/markdown.js"
+    "markdown": "bin/markdown.js",
+    "md": "bin/markdown.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
