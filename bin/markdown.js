@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 
-const fs = require('fs');
-const concat = require('concat-stream');
+import { createReadStream } from 'node:fs';
+import concat from 'concat-stream';
 
-const cliMarkdown = require('../');
-
+import cliMarkdown from '../index.js';
 
 const input = process.argv.length > 2
-  ? fs.createReadStream(process.argv[2])
+  ? createReadStream(process.argv[2])
   : process.stdin;
 
 input.pipe(concat((html) => {

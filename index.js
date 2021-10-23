@@ -1,5 +1,5 @@
-const marked = require('marked');
-const cliHtml = require('cli-html');
+import marked from 'marked';
+import cliHtml from 'cli-html';
 
 marked.setOptions({
   renderer: new marked.Renderer(),
@@ -10,15 +10,15 @@ marked.setOptions({
   breaks: false,
   gfm: true,
   smartypants: false,
-  baseUrl: null,
+  baseUrl: undefined,
   headerIds: true,
   headerPrefix: '',
   langPrefix: 'language-',
   mangle: true,
-  sanitizer: null,
+  sanitizer: undefined,
   silent: false,
 });
 
 const markdownToCli = (markdown) => cliHtml(marked(markdown));
 
-module.exports = markdownToCli;
+export default markdownToCli;

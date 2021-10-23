@@ -1,6 +1,7 @@
 {
   "name": "cli-markdown",
   "version": "1.7.1",
+  "type": "module",
   "description": "Render Markdown to Terminal",
   "bugs": {
     "url": "https://github.com/horosgrisa/cli-markdown/issues"
@@ -17,6 +18,7 @@
   },
   "dependencies": {
     "cli-html": "^1.9.1",
+    "concat-stream": "^2.0.0",
     "marked": "^3.0.4"
   },
   "devDependencies": {
