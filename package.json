@@ -16,29 +16,29 @@
     "fix": "eslint --quiet --fix *.js bin/*.js .eslintrc.js --ignore-pattern '!.eslintrc.js'"
   },
   "dependencies": {
-    "cli-html": "^1.8.0",
-    "marked": "^2.0.0"
+    "cli-html": "^1.9.1",
+    "marked": "^3.0.4"
   },
   "devDependencies": {
-    "eslint": "^7.20.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-config-es": "^3.19.55",
+    "eslint-config-es": "^3.30.15",
     "eslint-config-standard-jsdoc": "^9.3.0",
     "eslint-plugin-async-await": "0.0.0",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jsdoc": "^32.0.2",
-    "eslint-plugin-json": "^2.1.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsdoc": "^36.1.0",
+    "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prefer-object-spread": "^1.2.1",
-    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0"
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0"
   },
   "engines": {
-    "node": ">=12.0.0",
-    "npm": ">=6.12.0"
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
   },
   "author": "Grigorii Horos <horosgrisa@gmail.com>",
   "license": "GPL-3.0-or-later",
