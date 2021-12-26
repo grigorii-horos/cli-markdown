@@ -39,7 +39,7 @@
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0"
   },
   "engines": {
-    "node": ">=16.0.0",
+    "node": ">=14.0.0",
     "npm": ">=7.0.0"
   },
   "author": "Grigorii Horos <horosgrisa@gmail.com>",
