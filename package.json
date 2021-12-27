@@ -17,23 +17,23 @@
     "fix": "eslint --quiet --fix *.js bin/*.js .eslintrc.js --ignore-pattern '!.eslintrc.js'"
   },
   "dependencies": {
-    "cli-html": "^1.9.4",
+    "cli-html": "^2.1.2",
     "concat-stream": "^2.0.0",
-    "marked": "^3.0.4"
+    "marked": "^4.0.8"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-config-es": "^3.30.15",
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-es": "^4.1.0",
     "eslint-config-standard-jsdoc": "^9.3.0",
     "eslint-plugin-async-await": "0.0.0",
     "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-jsdoc": "^36.1.0",
+    "eslint-plugin-jsdoc": "^37.4.0",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prefer-object-spread": "^1.2.1",
-    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0"
