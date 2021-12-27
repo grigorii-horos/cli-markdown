@@ -17,7 +17,7 @@
     "fix": "eslint --quiet --fix *.js bin/*.js .eslintrc.js --ignore-pattern '!.eslintrc.js'"
   },
   "dependencies": {
-    "cli-html": "^2.1.5",
+    "cli-html": "^2.1.6",
     "concat-stream": "^2.0.0",
     "marked": "^4.0.8"
   },
