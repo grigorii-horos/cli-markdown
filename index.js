@@ -1,5 +1,5 @@
-import marked from 'marked';
-import cliHtml from 'cli-html';
+import { marked } from "marked";
+import cliHtml from "cli-html";
 
 marked.setOptions({
   renderer: new marked.Renderer(),
@@ -12,8 +12,8 @@ marked.setOptions({
   smartypants: false,
   baseUrl: undefined,
   headerIds: true,
-  headerPrefix: '',
-  langPrefix: 'language-',
+  headerPrefix: "",
+  langPrefix: "language-",
   mangle: true,
   sanitizer: undefined,
   silent: false,
