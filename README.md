@@ -1,10 +1,10 @@
 Welcome to cli-markdown
 ===
 
-![Version](https://img.shields.io/github/package-json/v/horosgrisa/cli-markdown.svg)
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/horosgrisa/cli-markdown#readme)
-[![Maintenance](https://img.shields.io/maintenance/yes/2019.svg)](https://github.com/horosgrisa/cli-markdown/graphs/commit-activity)
-[![License: GPL-3.0](https://img.shields.io/github/license/horosgrisa/cli-markdown.svg)](https://github.com/horosgrisa/cli-markdown/blob/master/LICENSE)
+![Version](https://img.shields.io/github/package-json/v/grigorii-horos/cli-markdown.svg)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/grigorii-horos/cli-markdown#readme)
+[![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)](https://github.com/grigorii-horos/cli-markdown/graphs/commit-activity)
+[![License: GPL-3.0](https://img.shields.io/github/license/grigorii-horos/cli-markdown.svg)](https://github.com/grigorii-horos/cli-markdown/blob/master/LICENSE)
 ![Downloads](https://img.shields.io/npm/dw/cli-markdown.svg)
 
 > Renderer Markdown in the Terminal.  
