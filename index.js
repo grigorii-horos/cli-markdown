@@ -1,12 +1,15 @@
-import { marked } from "marked";
-import cliHtml from "cli-html";
-import emoji from "node-emoji";
+import { marked } from 'marked';
+import cliHtml from 'cli-html';
+import emoji from 'node-emoji';
 
+/**
+ * @param text
+ */
 function insertEmojis(text) {
-  return text.replace(/:([A-Za-z0-9_\-\+]+?):/g, function (emojiString) {
-    var emojiSign = emoji.get(emojiString);
+  return text.replace(/:([\w+\-]+?):/g, (emojiString) => {
+    const emojiSign = emoji.get(emojiString);
     if (!emojiSign) return emojiString;
-    return emojiSign + " ";
+    return `${emojiSign} `;
   });
 }
 
@@ -21,8 +24,8 @@ marked.setOptions({
   smartypants: false,
   baseUrl: undefined,
   headerIds: true,
-  headerPrefix: "",
-  langPrefix: "language-",
+  headerPrefix: '',
+  langPrefix: 'language-',
   mangle: true,
   sanitizer: undefined,
   silent: false,

@@ -10,7 +10,6 @@ module.exports = {
   extends: [
     // Syntax and ~
     'eslint:recommended',
-    'es/browser',
     'plugin:node/recommended',
 
     'plugin:ava/recommended',
