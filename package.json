@@ -17,27 +17,26 @@
     "fix": "eslint --quiet --fix *.js bin/*.js .eslintrc.js --ignore-pattern '!.eslintrc.js'"
   },
   "dependencies": {
-    "cli-html": "^3.0.2",
+    "cli-html": "^3.0.5",
     "concat-stream": "^2.0.0",
-    "eslint-plugin-ava": "^13.2.0",
-    "marked": "^4.0.9",
+    "marked": "^4.1.1",
     "node-emoji": "^1.11.0"
   },
   "devDependencies": {
-    "eslint": "^8.6.0",
+    "eslint": "^8.25.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-standard-jsdoc": "^9.3.0",
     "eslint-plugin-async-await": "0.0.0",
     "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsdoc": "^39.3.3",
+    "eslint-plugin-jsdoc": "^39.3.6",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prefer-object-spread": "^1.2.1",
-    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-promise": "^6.0.1",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-simple-import-sort": "^7.0.0",
-    "eslint-plugin-unicorn": "^43.0.1",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-unicorn": "^44.0.2",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0"
   },
   "engines": {
