@@ -1,17 +1,7 @@
 import { marked } from 'marked';
 import cliHtml from 'cli-html';
-import emoji from 'node-emoji';
-
-/**
- * @param text
- */
-function insertEmojis(text) {
-  return text.replace(/:([\w+\-]+?):/g, (emojiString) => {
-    const emojiSign = emoji.get(emojiString);
-    if (!emojiSign) return emojiString;
-    return `${emojiSign} `;
-  });
-}
+import linkify from 'marked-linkify-it';
+import extendedTables from 'marked-extended-tables';
 
 marked.setOptions({
   renderer: new marked.Renderer(),
@@ -31,6 +21,9 @@ marked.setOptions({
   silent: false,
 });
 
-const markdownToCli = (markdown) => cliHtml(marked(insertEmojis(markdown)));
+marked.use(linkify({}, {}));
+marked.use(extendedTables());
+
+const markdownToCli = (markdown) => cliHtml(marked(markdown));
 
 export default markdownToCli;

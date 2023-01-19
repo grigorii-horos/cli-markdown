@@ -12,7 +12,6 @@ module.exports = {
     'eslint:recommended',
     'plugin:node/recommended',
 
-    'plugin:ava/recommended',
     'standard-jsdoc',
     'plugin:json/recommended',
 
