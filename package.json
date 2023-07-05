@@ -22,7 +22,6 @@
     "concat-stream": "^2.0.0",
     "marked": "^4.2.12",
     "marked-extended-tables": "^1.0.5",
-    "marked-linkify-it": "^3.0.1",
     "node-emoji": "^1.11.0"
   },
   "devDependencies": {

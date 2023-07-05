@@ -1,6 +1,5 @@
 import { marked } from 'marked';
-import cliHtml from 'cli-html';
-import linkify from 'marked-linkify-it';
+import cliHtml from "cli-html";
 import extendedTables from 'marked-extended-tables';
 
 marked.setOptions({
@@ -21,7 +20,6 @@ marked.setOptions({
   silent: false,
 });
 
-marked.use(linkify({}, {}));
 marked.use(extendedTables());
 
 const markdownToCli = (markdown) => cliHtml(marked(markdown));
