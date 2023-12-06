@@ -1,6 +1,8 @@
 import { marked } from 'marked';
-import cliHtml from "cli-html";
+import cliHtml from 'cli-html';
 import extendedTables from 'marked-extended-tables';
+import markedAlert from 'marked-alert';
+import markedFootnote from 'marked-footnote';
 
 marked.setOptions({
   renderer: new marked.Renderer(),
@@ -14,13 +16,15 @@ marked.setOptions({
   gfm: true,
   smartypants: false,
   baseUrl: undefined,
-  headerPrefix: "",
-  langPrefix: "language-",
+  headerPrefix: '',
+  langPrefix: 'language-',
   sanitizer: undefined,
   silent: false,
 });
 
 marked.use(extendedTables());
+marked.use(markedAlert());
+marked.use(markedFootnote());
 
 const markdownToCli = (markdown) => cliHtml(marked(markdown));
 

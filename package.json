@@ -17,12 +17,14 @@
     "fix": "eslint --quiet --fix *.js bin/*.js .eslintrc.js --ignore-pattern '!.eslintrc.js'"
   },
   "dependencies": {
-    "@types/marked": "^5.0.0",
-    "cli-html": "^4.0.1",
+    "@types/marked": "^6.0.0",
+    "cli-html": "^4.0.3",
     "concat-stream": "^2.0.0",
-    "marked": "^5.1.0",
-    "marked-extended-tables": "^1.0.6",
-    "node-emoji": "^2.1.0"
+    "marked": "^11.0.0",
+    "marked-alert": "^2.0.1",
+    "marked-extended-tables": "^1.0.7",
+    "marked-footnote": "^1.1.3",
+    "node-emoji": "^2.1.3"
   },
   "devDependencies": {
     "eslint": "^8.44.0",
@@ -38,7 +40,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-security": "^1.7.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-unicorn": "^47.0.0",
+    "eslint-plugin-unicorn": "^49.0.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0"
   },
   "engines": {
