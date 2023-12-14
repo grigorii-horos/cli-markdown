@@ -1,31 +1,38 @@
-import { marked } from 'marked';
+/* eslint-disable import/no-extraneous-dependencies */
 import cliHtml from 'cli-html';
-import extendedTables from 'marked-extended-tables';
-import markedAlert from 'marked-alert';
-import markedFootnote from 'marked-footnote';
 
-marked.setOptions({
-  renderer: new marked.Renderer(),
-  pedantic: false,
-  sanitize: false,
-  smartLists: true,
-  xhtml: false,
-  headerIds: false,
-  mangle: false,
-  breaks: false,
-  gfm: true,
-  smartypants: false,
-  baseUrl: undefined,
-  headerPrefix: '',
+import markdownit from 'markdown-it';
+import markdownItFootnote from 'markdown-it-footnote';
+import markdownItIns from 'markdown-it-ins';
+import markdownItMark from 'markdown-it-mark';
+import markdownItDeflist from 'markdown-it-deflist';
+import markdownItContainer from 'markdown-it-container';
+import markdownItAbbr from 'markdown-it-abbr';
+import markdownItSup from 'markdown-it-sup';
+import markdownItSub from 'markdown-it-sub';
+import markdownItTaskList from 'markdown-it-task-lists';
+import { alert } from '@mdit/plugin-alert';
+
+const md = markdownit({
+  html: true,
   langPrefix: 'language-',
-  sanitizer: undefined,
-  silent: false,
-});
+  linkify: true,
+})
+  .use(markdownItFootnote)
+  .use(markdownItIns)
+  .use(markdownItMark)
+  .use(markdownItDeflist)
+  .use(markdownItAbbr)
+  .use(markdownItContainer)
+  .use(markdownItSup)
+  .use(markdownItSub)
+  .use(markdownItTaskList)
+  .use(alert, {
+    deep: true,
+  });
 
-marked.use(extendedTables());
-marked.use(markedAlert());
-marked.use(markedFootnote());
+md.renderer.rules.footnote_anchor = () => '';
 
-const markdownToCli = (markdown) => cliHtml(marked(markdown));
+const markdownToCli = (markdown) => cliHtml(md.render(markdown));
 
 export default markdownToCli;
