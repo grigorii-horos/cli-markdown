@@ -14,12 +14,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "fix": "eslint --quiet --fix *.js bin/*.js .eslintrc.js --ignore-pattern '!.eslintrc.js'"
+    "fix": "eslint --quiet --fix *.js bin/*.js .eslintrc.cjs --ignore-pattern '!.eslintrc.js'"
   },
   "dependencies": {
     "@mdit/plugin-alert": "^0.8.0",
     "@types/marked": "^6.0.0",
-    "cli-html": "^4.0.4",
+    "cli-html": "^4.0.5",
     "concat-stream": "^2.0.0",
     "markdown-it": "^14.0.0",
     "markdown-it-abbr": "^2.0.0",
@@ -33,20 +33,21 @@
     "markdown-it-task-lists": "^2.1.1"
   },
   "devDependencies": {
-    "eslint": "^8.44.0",
+    "confusing-browser-globals": "^1.0.11",
+    "eslint": "^8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-standard-jsdoc": "^9.3.0",
     "eslint-plugin-async-await": "0.0.0",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsdoc": "^46.9.1",
+    "eslint-plugin-jsdoc": "^48.0.2",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prefer-object-spread": "^1.2.1",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-security": "^2.0.0",
+    "eslint-plugin-security": "^2.1.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-unicorn": "^49.0.0",
+    "eslint-plugin-unicorn": "^50.0.1",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0"
   },
   "engines": {

@@ -7,7 +7,7 @@ Welcome to cli-markdown
 [![License: GPL-3.0](https://img.shields.io/github/license/grigorii-horos/cli-markdown.svg)](https://github.com/grigorii-horos/cli-markdown/blob/master/LICENSE)
 ![Downloads](https://img.shields.io/npm/dw/cli-markdown.svg)
 
-> Renderer Markdown in the Terminal.  
+> Renderer Markdown in the Terminal.
 > Supports pretty tables and syntax highlighting
 
 ## Install
