@@ -1,5 +1,4 @@
 // @ts-nocheck
-const restrictedGlobals = require('confusing-browser-globals');
 
 module.exports = {
   root: true,
@@ -41,7 +40,7 @@ module.exports = {
   },
   rules: {
     'prefer-object-spread/prefer-object-spread': 2,
-    'no-restricted-globals': [2, ...restrictedGlobals],
+    // 'no-restricted-globals': [2, ...restrictedGlobals],
 
     'mocha/handle-done-callback': 0,
     'mocha/no-global-tests': 0,

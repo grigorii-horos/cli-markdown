@@ -17,9 +17,9 @@
     "fix": "eslint --quiet --fix *.js bin/*.js .eslintrc.cjs --ignore-pattern '!.eslintrc.js'"
   },
   "dependencies": {
-    "@mdit/plugin-alert": "^0.8.0",
+    "@mdit/plugin-alert": "^0.10.1",
     "@types/marked": "^6.0.0",
-    "cli-html": "^4.0.7",
+    "cli-html": "^4.1.0",
     "concat-stream": "^2.0.0",
     "markdown-it": "^14.1.0",
     "markdown-it-abbr": "^2.0.0",
@@ -39,15 +39,15 @@
     "eslint-config-standard-jsdoc": "^9.3.0",
     "eslint-plugin-async-await": "0.0.0",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsdoc": "^48.2.3",
+    "eslint-plugin-jsdoc": "^48.2.4",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prefer-object-spread": "^1.2.1",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-security": "^2.1.1",
-    "eslint-plugin-simple-import-sort": "^12.0.0",
-    "eslint-plugin-unicorn": "^50.0.1",
+    "eslint-plugin-security": "^3.0.0",
+    "eslint-plugin-simple-import-sort": "^12.1.0",
+    "eslint-plugin-unicorn": "^53.0.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.14.0"
   },
   "engines": {
