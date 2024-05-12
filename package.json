@@ -12,6 +12,10 @@
     "markdown": "bin/markdown.js",
     "md": "bin/markdown.js"
   },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "fix": "eslint --quiet --fix *.js bin/*.js .eslintrc.cjs --ignore-pattern '!.eslintrc.js'"
@@ -19,7 +23,7 @@
   "dependencies": {
     "@mdit/plugin-alert": "^0.10.1",
     "@types/marked": "^6.0.0",
-    "cli-html": "^4.1.0",
+    "cli-html": "^4.2.0",
     "concat-stream": "^2.0.0",
     "markdown-it": "^14.1.0",
     "markdown-it-abbr": "^2.0.0",
@@ -49,10 +53,6 @@
     "eslint-plugin-simple-import-sort": "^12.1.0",
     "eslint-plugin-unicorn": "^53.0.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.14.0"
-  },
-  "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=7.0.0"
   },
   "author": "Grigorii Horos <horosgrisa@gmail.com>",
   "license": "GPL-3.0-or-later",
