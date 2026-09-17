@@ -22,7 +22,6 @@
   },
   "dependencies": {
     "@mdit/plugin-alert": "^0.22.1",
-    "@types/marked": "^6.0.0",
     "cli-html": "^4.4.0",
     "concat-stream": "^2.0.0",
     "markdown-it": "^14.1.0",
